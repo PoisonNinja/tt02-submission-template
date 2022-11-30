@@ -1,6 +1,6 @@
 `default_nettype none
 
-module top (
+module poisonninja_top (
     input logic [7:0] io_in,
     output logic [7:0] io_out
 );

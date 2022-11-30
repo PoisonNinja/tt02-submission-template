@@ -4,7 +4,7 @@ module tb;
     logic [7:0] io_out;
     logic clock;
     logic reset;
-    top dut(.io_in({io_in, reset, clock}), .io_out(io_out));
+    poisonninja_top dut(.io_in({io_in, reset, clock}), .io_out(io_out));
 
     always #1 clock = ~clock;
 
